@@ -1,2 +1,2 @@
-# JWT_WEB_API
-Authentication using jwt in C#
+# JWT WEB API User Registration and Authorization
+Authentication  and Authorization using jwt in C#
