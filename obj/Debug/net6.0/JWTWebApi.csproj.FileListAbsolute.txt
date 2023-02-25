@@ -30,3 +30,8 @@ C:\Users\hp\Desktop\C# class\C# JWT\JWT_WEB_API\JWTWebApi\obj\Debug\net6.0\refin
 C:\Users\hp\Desktop\C# class\C# JWT\JWT_WEB_API\JWTWebApi\obj\Debug\net6.0\JWTWebApi.pdb
 C:\Users\hp\Desktop\C# class\C# JWT\JWT_WEB_API\JWTWebApi\obj\Debug\net6.0\JWTWebApi.genruntimeconfig.cache
 C:\Users\hp\Desktop\C# class\C# JWT\JWT_WEB_API\JWTWebApi\obj\Debug\net6.0\ref\JWTWebApi.dll
+C:\Users\hp\Desktop\C# class\C# JWT\JWT_WEB_API\JWTWebApi\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\hp\Desktop\C# class\C# JWT\JWT_WEB_API\JWTWebApi\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\hp\Desktop\C# class\C# JWT\JWT_WEB_API\JWTWebApi\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\hp\Desktop\C# class\C# JWT\JWT_WEB_API\JWTWebApi\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\hp\Desktop\C# class\C# JWT\JWT_WEB_API\JWTWebApi\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
