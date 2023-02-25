@@ -26,6 +26,10 @@ namespace JWTWebApi.Controllers
             {
                return BadRequest(" User not Found ");
             }
+            if (!VerifyPaswordHash(request.Password, user.PasswordHash, user.PasswordSalt))
+            {
+                return BadRequest("Wrong password");
+            }
                return Ok(" Here is token!!! ");
         }
     
@@ -36,6 +40,14 @@ namespace JWTWebApi.Controllers
             {
                 passwordSalt = hmac.Key;
                 passwordHash = hmac.ComputeHash(System.Text.Encoding.UTF8.GetBytes(password));
+            }
+        }
+        private bool VerifyPaswordHash(string password, byte[] passwordHash, byte[] passwordSalt)
+        {
+            using(var hmac = new HMACSHA512(passwordHash))
+            {
+                var computeHash = hmac.ComputeHash(System.Text.Encoding.UTF8.GetBytes(password));
+                return computeHash.SequenceEqual(passwordHash);
             }
         }
     }
