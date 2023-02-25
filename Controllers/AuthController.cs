@@ -51,7 +51,7 @@ namespace JWTWebApi.Controllers
                 new Claim(ClaimTypes.Name,user.Username)
             };
             var key = new SymmetricSecurityKey(System.Text.Encoding.UTF8.GetBytes(
-              _configuration.GetSection("AppSettingd:Token").Value));
+              _configuration.GetSection("AppSettings:Token").Value));
             var cred = new SigningCredentials(key, SecurityAlgorithms.HmacSha256Signature);
             var token = new JwtSecurityToken(
                 claims: claims,
