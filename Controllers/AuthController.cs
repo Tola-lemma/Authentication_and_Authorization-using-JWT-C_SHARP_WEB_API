@@ -19,6 +19,16 @@ namespace JWTWebApi.Controllers
             user.PasswordSalt = passwordSalt;
             return (user);
         }
+         [HttpPost("Login")]
+        public async Task<ActionResult<string>> Login(UserDto request)
+        {
+            if (user.Username != request.Username)
+            {
+               return BadRequest(" User not Found ");
+            }
+               return Ok(" Here is token!!! ");
+        }
+    
         private void CreatePasswordHash(string password,out byte[] passwordHash,out byte[] passwordSalt)
         {
             // cryptograpy algorithm reference
