@@ -30,6 +30,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 # Acknowledgments
 - jsonwebtoken library
-- <a href="https://www.youtube.com/watch?v=TDY_DtTEkes&t=20s" YouTube </a>.NET 6 Web API 🔒 Role-Based Authorization with JSON Web Tokens (JWT) By <strong>patrick God</strong>
+- <a href="https://www.youtube.com/watch?v=TDY_DtTEkes&t=20s"> YouTube </a>.NET 6 Web API 🔒 Role-Based Authorization with JSON Web Tokens (JWT) By <strong>patrick God</strong>
 - <a href="https://github.com/jwt-dotnet/jwt"> Github </a>
 - <a href="https://jasonwatmore.com/post/2019/10/14/aspnet-core-3-simple-api-for-authentication-registration-and-user-management">ASP.NET Core JWT Authentication tutorial by Jason Watmore.</a>
